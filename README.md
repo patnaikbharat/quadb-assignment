@@ -30,7 +30,7 @@ To run this application locally, follow these steps:
    
 2. Navigate into the project directory:
    ```
-   cd todo-app
+   cd ./quaddb-assignment
    ```
 
 3. Install dependencies using npm:
