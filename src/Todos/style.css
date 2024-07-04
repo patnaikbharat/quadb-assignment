@@ -1,0 +1,38 @@
+.task-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+    list-style:none;
+    padding:0px;
+}
+
+.dup-task-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.checkbox-input{
+    width:17px;
+    height:17px;
+    outline:none;
+    cursor:pointer;
+    margin-right:15px;
+}
+
+.task-name{
+    color:rgb(0, 0, 0);
+    font-size:20px;
+    font-weight:500;
+    font-family:"Roboto";
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.icon{
+    font-size:25px;
+    margin-left:10px;
+    cursor:pointer;
+}

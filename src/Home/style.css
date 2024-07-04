@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-container{
+    background-image:url("https://res.cloudinary.com/dawgqpgxs/image/upload/v1719989697/pexels-content-pixie-1405717-2736499_s3s6ag.jpg");
+    background-size:cover;
+    min-height:100vh;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.main-heading{
+    color:rgb(172, 28, 28);
+    font-size:35px;
+    font-weight:600;
+    font-family:"Roboto";
+    margin-bottom:0px;
+}
+
+.description{
+    color:rgb(17, 4, 194);
+    font-size:18px;
+    font-weight:600;
+    font-family:"Roboto";
+    margin-top:10px;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+.task-input{
+    width:420px;
+    height:20px;
+    border-radius:10px;
+    border:none;
+    padding:10px;
+    outline:none;
+    color:#000000;
+    font-size:17px;
+    font-weight:600;
+    font-family:"Roboto";
+    margin-right:15px;
+}
+
+.add-button{
+    background-color:rgb(32, 127, 236);
+    width:85px;
+    height:40px;
+    border:none;
+    border-radius:10px;
+    color:#ffffff;
+    font-size:17px;
+    font-weight:500;
+    font-family:"Roboto";
+    outline:none;
+    cursor:pointer;
+}
+
+.saved-tasks-container{
+    background-color:#ffffff;
+    width:500px;
+    padding:20px;
+    border-radius:10px;
+    margin-top:30px;
+    box-shadow: #4d4c4c 0px 0px 1px 1px;
+}
+
+.saved-tasks-heading{
+    color:rgb(209, 6, 175);
+    font-size:28px;
+    font-weight:600;
+    font-family:"Roboto";
+    margin-top:0px;
+}
+
+.no-todo-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.no-todo-text{
+    color:rgb(0, 0, 0);
+    font-size:18px;
+    font-weight:600;
+    font-family:"Roboto";
+}
+
+.no-todo-image{
+    width:40%;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.todoList-container{
+    display:inline;
+    margin:0px;
+    padding-left:0px;
+}
+
+.saved-tasks-header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.search-input{
+    height:40px;
+    background-color: rgb(209, 6, 175);
+    border:none;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:8px;
+    outline:none;
+    color:#ffffff;
+    font-size:17px;
+    font-weight:600;
+    font-family:"Roboto";
+}
+
+.search-input::placeholder{
+    color:#ffffff;
+}
+
+@media (width < 768px){
+    .main-container{
+        background-image: url("https://w0.peakpx.com/wallpaper/895/936/HD-wallpaper-light-color-pattern-abstract-blue-design-mix-rainbow-red-white-yellow.jpg");
+    }
+
+    .saved-tasks-container{
+        width:350px;
+        margin-top:20px;
+    }
+
+    .no-todo-image{
+        margin-top:10px;
+    }
+
+    .task-input{
+        border: 1px solid #4d4c4c;
+        width:265px;
+    }
+
+    .description{
+        width:400px;
+    }
+
+    .saved-tasks-header{
+        flex-direction: column;
+        margin-bottom:20px;
+    }
+
+    .saved-tasks-heading{
+        text-align: center;
+    }
+}
